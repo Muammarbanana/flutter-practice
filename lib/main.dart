@@ -12,6 +12,7 @@ import 'package:flutter_app_2/imagewid.dart';
 import 'package:flutter_app_2/listview.dart';
 import 'package:flutter_app_2/login.dart';
 import 'package:flutter_app_2/mediaquery.dart';
+import 'package:flutter_app_2/preferedsize.dart';
 import 'package:flutter_app_2/second.dart';
 import 'package:flutter_app_2/stack.dart';
 import 'package:flutter_app_2/textfield.dart';
@@ -56,6 +57,7 @@ class _UtamaState extends State<Utama> {
     return PageView(
       controller: _controller,
       children: [
+        PreferSize(),
         HeroJennie(),
         CustomCard(),
         CustomButton(),
