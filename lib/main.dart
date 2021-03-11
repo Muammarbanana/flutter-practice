@@ -7,6 +7,7 @@ import 'package:flutter_app_2/custombuttoninkwell.dart';
 import 'package:flutter_app_2/customcard.dart';
 import 'package:flutter_app_2/draggable.dart';
 import 'package:flutter_app_2/flexiblewidget.dart';
+import 'package:flutter_app_2/heroclip.dart';
 import 'package:flutter_app_2/imagewid.dart';
 import 'package:flutter_app_2/listview.dart';
 import 'package:flutter_app_2/login.dart';
@@ -55,6 +56,7 @@ class _UtamaState extends State<Utama> {
     return PageView(
       controller: _controller,
       children: [
+        HeroJennie(),
         CustomCard(),
         CustomButton(),
         Mequ(),
