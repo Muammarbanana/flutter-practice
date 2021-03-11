@@ -4,6 +4,7 @@ import 'package:flutter_app_2/anoningusmethod.dart';
 import 'package:flutter_app_2/card.dart';
 import 'package:flutter_app_2/customappbar.dart';
 import 'package:flutter_app_2/custombuttoninkwell.dart';
+import 'package:flutter_app_2/customcard.dart';
 import 'package:flutter_app_2/draggable.dart';
 import 'package:flutter_app_2/flexiblewidget.dart';
 import 'package:flutter_app_2/imagewid.dart';
@@ -54,6 +55,7 @@ class _UtamaState extends State<Utama> {
     return PageView(
       controller: _controller,
       children: [
+        CustomCard(),
         CustomButton(),
         Mequ(),
         Nginput(),
