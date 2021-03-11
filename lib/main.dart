@@ -15,6 +15,7 @@ import 'package:flutter_app_2/mediaquery.dart';
 import 'package:flutter_app_2/preferedsize.dart';
 import 'package:flutter_app_2/second.dart';
 import 'package:flutter_app_2/stack.dart';
+import 'package:flutter_app_2/tabbar.dart';
 import 'package:flutter_app_2/textfield.dart';
 import 'package:flutter_app_2/textstyle.dart';
 import 'stateful.dart';
@@ -57,6 +58,7 @@ class _UtamaState extends State<Utama> {
     return PageView(
       controller: _controller,
       children: [
+        TabBarMas(),
         PreferSize(),
         HeroJennie(),
         CustomCard(),
